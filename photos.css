@@ -1,0 +1,14 @@
+:root {
+  --header-h: 90px; /* set this to your actual header height */
+}
+
+body {
+  padding-top: var(--header-h);
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url("Fonts/Steph-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
